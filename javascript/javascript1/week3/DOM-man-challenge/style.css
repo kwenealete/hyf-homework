@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(244, 255, 240, 0.815);
+}
+
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+    margin: 3% 0 3% 0;
+    font-weight: bold;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lawngreen;
+    font-size: 65px;
+    
+}
+
+h2{
+    color: skyblue;
+    font-size: 26px;
+}
+
+li{
+    list-style-type: none;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    flex-basis: 23%;
+    height: auto;
+    justify-content: space-around;
+    margin: 2% 2%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    flex-grow: 50%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 50%;
+    height: auto; 
+    image-resolution: 400px * 400px;
+    width: 200px;
+    height: auto;
+    align-content: center; 
+    margin: 5px 2px;  
+}
+
+
+img:hover{
+    width: 51%;
+    height: auto; 
+    width: 205px;
+    margin-bottom: 3%;
+    height: auto;   
+}
+
+.header{
+    text-align: center;
+    top: 50px;
+    width: 100%;
+    position: absolute;
+}
+
+#goodbooks{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+}
